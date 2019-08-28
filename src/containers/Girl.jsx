@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import { incrementAge, decrementAge } from '../redux/modules/Girl';
 
 export const mapStateToProps = (state) => ({
-  name: state.name,
-  age: state.age,
+  name: state.girlReducer.name,
+  age: state.girlReducer.age,
 });
 
 export const mapDispatchToProps = (dispatch) => ({
