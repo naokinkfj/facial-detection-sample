@@ -30,9 +30,8 @@
   },
   "repository": "https://github.com/minagawah/facial-detection-sample.git",
   "keywords": [
-    "React",
-    "TypeScript",
-    "Web Animation API"
+    "react",
+    "facial detection api"
   ],
   "author": "minagawah <minagawa@tokyo800.jp>",
   "license": "WTFPL",
