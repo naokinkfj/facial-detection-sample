@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from 'redux';
 // import { createLogger } from 'redux-logger';
-import { GirlReducer } from './modules/Girl';
+import { girlReducer } from './modules/Girl';
 
 // const loggerMiddleware = createLogger();
 // 
@@ -9,7 +9,7 @@ import { GirlReducer } from './modules/Girl';
 // )(createStore);
 
 const rootReducer = combineReducers({
-  GirlReducer,
+  girlReducer,
 });
 
 // export const configureStore = (initialState = {}) => createStoreWithMiddleware(

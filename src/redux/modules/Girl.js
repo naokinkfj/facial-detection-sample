@@ -14,7 +14,7 @@ const initialState = {
   age: 1,
 };
 
-export const GirlReducer = (state = initialState, action) => {
+export const girlReducer = (state = initialState, action) => {
   const type = action.type;
   console.log(`type --> ${type}`);
   console.log(`age --> ${state.age}`);
