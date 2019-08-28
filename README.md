@@ -34,9 +34,6 @@ yarn add normalize.css
 yarn add redux-logger
 
 # Adding Redux.  
-# `react-redux` is for bindings.  
-# action creators that return functions
-# which basically receives "dispatch" and "getState" methods.
 yarn add redux react-redux
 
 # Adding React-Router.
